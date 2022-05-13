@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "node-loader": "^2.0.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16",
+    "sass-loader": "^12.6.0"
+  },
+  "scripts": {
+    "css": "node-sass --include-path scss ./style.scss ./style.css",
+    "watch": "nodemon -e scss -x 'npm run css'"
+  }
+}
